@@ -5,9 +5,9 @@ header{
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
-.topofpage{
-
-}
+/* .topofpage{
+    background-image: url("../images/7789.jpg");
+} */
 body{    
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 20px;
@@ -15,11 +15,9 @@ body{
 .main{
     width:100%;
     height:880px;
-    background-image: url("http://xn--g1acecr2a.xn--p1ai/_bd/6/24629383.jpg");
+    background-image: url("../images/Waves.jpg");
+    background-size: cover;
     border-top: 3px solid #ccc;
-    background-position: center;
-    background-repeat: repeat;
-    overflow: hidden;
     
 }
 /* #main::before{
@@ -34,11 +32,11 @@ body{
     margin-left: 0;
     margin-top: 2px;
     padding-top: 30px;
-    color: turquoise;
+    color: lightseagreen;
 }
 .name{
     float:left;
-    background: turquoise;
+    background: lightseagreen;
     color: white;
 
 }
@@ -70,7 +68,7 @@ li {
     margin: 20px 25% 0 25%;
     width: 700px;
     height: 650px;
-    background: white;
+    background: rgba(255,255,255,.8);
     border: solid 1px #ccc;
 }
 #selfmain{
@@ -78,7 +76,7 @@ li {
     margin: 20px 15% 0 15%;
     width: 960px;
     height: 650px;
-    background: white;
+    background: rgba(255,255,255,.8);
     border: solid 1px #ccc;
 }
 #selfport{
@@ -86,7 +84,7 @@ li {
     margin: 20px 25% 0 25%;
     width: 700px;
     height: 800px;
-    background: white;
+    background: rgba(255,255,255,.8);
     border: solid 1px #ccc;
 }
 #descrip{
@@ -133,7 +131,7 @@ input {
 }
 #submit{
     width: 10%;
-    background: turquoise;
+    background: lightseagreen;
     color: white;
     padding: 7px;
     border: none;
@@ -162,7 +160,7 @@ input {
 .portbuttons{
     text-align: center;
     padding: 10px 30px 10px 30px;
-    background: turquoise;
+    background: lightseagreen;
     color: white;
     font-size: 12px;
     position: relative;
