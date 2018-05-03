@@ -208,3 +208,11 @@ input {
     width:200px;
     height:200px;
 }
+.link{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+}
+.link:hover{
+    text-decoration: underline;
+}
